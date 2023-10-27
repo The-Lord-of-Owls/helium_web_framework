@@ -6,6 +6,9 @@ various differant things such as routing, components, component methods/hooks, l
 
 Helium on the other hand simplifies things.
 
+# Front end and backend
+In it's current state Helium is only for frontend use. at a later time however this will likely extend to backend aswell
+
 
 # Components:
 Components are only written as classes, no function style components. Components can be statefull or stateless.
