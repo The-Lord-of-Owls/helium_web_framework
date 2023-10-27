@@ -1,0 +1,1 @@
+//https://github.com/Amin52J/frameworkless-spa/blob/master/app/scripts/helpers/router.js

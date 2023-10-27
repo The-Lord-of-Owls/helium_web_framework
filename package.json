@@ -1,0 +1,14 @@
+{
+	"name": "helium",
+	"version": "0.0.1",
+	"description": "A basic web framework meant to simplify web development for both front and backend",
+	"scripts": {
+		"dev": "parcel index.html"
+	},
+	"author": "Vaas Kahn Grim",
+	"license": "ISC",
+	"devDependencies": {
+		"axios": "^1.6.0",
+		"parcel": "^2.10.1"
+	}
+}
