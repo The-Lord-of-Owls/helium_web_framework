@@ -8,18 +8,18 @@ That's just the front end, we've not even gotten involved with backend stuff lik
 
 # Core Feature Requirements:
 1. Clientside Routing - Basic routing for pages like other frameworks, this will be very similar to react.
-2. State Management - A performant state management system very similar to redux but with some differances. Goal being that it can work well for simple and complex data being stored and manipulated.
-3. RestAPI - This requirement may change, but something I feel like atleast seeing if it's simpler to work with is a API controller of sorts for interacting with an API on your behalf.
+2. State Management - A performant state management system very similar to Redux but with some differences. Goal being that it can work well for simple and complex data being stored and manipulated.
+3. RestAPI - This requirement may change, but something I feel like at least seeing if it's simpler to work with is a API controller of sorts for interacting with an API on your behalf.
 4. Built-in Internationalization - Something very important to alot of companies I've noticed is internationalization. I intend to have built in internationalization in an extremely simplified form.
-5. Building with webpack and babel - Basic building just like with react to provide an extremely eficient production build for the web application.
-6. Virtual DOM and JSX - This one is seeming to be a little complex to implement atm but I intend to implement JSX for component rendering, this way migration from React to Helium will be extremely quick and easy.
+5. Building with Webpack and Babel - Basic building just like with React to provide an extremely efficient production build for the web application.
+6. Virtual DOM and JSX - This one is seeming to be a little complex to implement ATM but I intend to implement JSX for component rendering, this way migration from React to Helium will be extremely quick and easy.
 7. Lazy Loading - Same as with lazy loading in React.
 8. CSS HTML and JS within same file - Basically just like with Vue, but more similar to how a react component file is written
-9. Class Components recomended - Classes to me are more organized and universally understood even outside of web development. While React seems to feel otherwise, I don't particularly plan to implement functional components anytime soon, MAYBE in the future but at this time no.
+9. Class Components Recommended - Classes to me are more organized and universally understood even outside of web development. While React seems to feel otherwise, I don't particularly plan to implement functional components anytime soon, MAYBE in the future but at this time no.
 
 
 # Components:
-Components are only written as classes, no function style components. Components can be statefull or stateless depending on implementation of the component. Components are similar to react class components in terms of using them and writing them, with the added benefit of writing your CSS, JS and HTML within the same file including the internationalization for the component. JSX is on the todo list aswell to further ease transition away from React.
+Components are only written as classes, no function style components. Components can be stateful or stateless depending on implementation of the component. Components are similar to react class components in terms of using them and writing them, with the added benefit of writing your CSS, JS and HTML within the same file including the internationalization for the component. JSX is on the todo list as well to further ease transition away from React.
 
 
 # HTTP requests and APIs:
@@ -27,7 +27,7 @@ This feature may be scrapped later or made optional. Helium has a HTTPController
 
 
 # State Management:
-Helium implements it's own state management inspired by Redux Toolkit, this way there is no confussion or differing methods for the state management of the application.
+Helium implements it's own state management inspired by Redux Toolkit, this way there is no confusion or differing methods for the state management of the application.
 
 
 # Routing:
@@ -47,7 +47,7 @@ Helium implements its own virtual dom, currently in a simple form that will evol
 
 
 # Typescript:
-Helium does not utilize typescript, nor is it planned or desired. Javascript is typeless, and helium aims to not implement things unless they are needed. This way development remains simple. One of the things I've started to notice is typescript slows down development compared to manually type checking as needed. As such I don't intend to utilize it.
+Helium does not utilize Typescript, nor is it planned or desired. Javascript is dynamically typed, and Helium aims to not implement things unless they are needed. This way development remains simple. One of the things I've started to notice is Typescript slows down development compared to manually type checking as needed. As such I don't intend to utilize it.
 
 
 # TODO LIST:
