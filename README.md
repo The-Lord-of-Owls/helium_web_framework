@@ -1,3 +1,4 @@
+# NOTICE: This will not be updated for a while. I'm spending as much of my time as possible on other projects. For now use React, there isn't a better option out there atm
 # About the project
 Helium is a WIP web framework intending to make web development more simplified rather than complicated. One of the big things I've grown to hate about current web frameworks is their over saturated terminology. React has two ways to create components both with their own set of terminology when creating them, too many differant ways to handle web APIs, atleast three/four differant options that I've seen for state management, and overall it feels far more complicated than needed. Angular being even more so over complicated. There is alot of over complication involved and many differant things to go over.
 
